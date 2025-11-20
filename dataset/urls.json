@@ -1,0 +1,12 @@
+[
+  { "url": "https://www.example.com", "label": "safe" },
+  { "url": "https://accounts.google.com", "label": "safe" },
+  { "url": "https://docs.python.org/3/", "label": "safe" },
+  { "url": "http://192.168.0.10/login", "label": "phishing" },
+  { "url": "http://secure-paypal.com.verify-user-login.ru", "label": "phishing" },
+  { "url": "http://login-update-security.verification.cn", "label": "phishing" },
+  { "url": "https://github.com", "label": "safe" },
+  { "url": "http://bit.ly/Free-Gift-Card-Claim-Now", "label": "phishing" },
+  { "url": "https://subdomain.microsoft.com/signin", "label": "safe" },
+  { "url": "http://paypal.com.login.verify.cn", "label": "phishing" }
+]

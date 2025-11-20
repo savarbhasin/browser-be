@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "==3.9.2"
+fastapi = "==0.115.0"
+uvicorn = {extras = ["standard"], version = "==0.30.6"}
+pydantic = "==2.9.2"
+python-multipart = "==0.0.9"
+orjson = "==3.10.7"
+scikit-learn = "==1.5.2"
+joblib = "==1.4.2"
+numpy = "==2.1.2"
+pandas = "==2.2.3"
+httpx = "==0.27.0"
+sqlalchemy = "==2.0.23"
+psycopg2-binary = "==2.9.9"
+alembic = "==1.12.1"
+groq = "==0.4.2"
+python-jose = {extras = ["cryptography"], version = "==3.3.0"}
+python-dotenv = "==1.0.0"
+slowapi = "==0.1.9"
+aiohttp = "*"
+dnspython = "*"
+python-whois = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

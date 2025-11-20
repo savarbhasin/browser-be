@@ -1,0 +1,42 @@
+{
+  "model_name": "Gradient Boosting",
+  "training_samples": 183810,
+  "test_samples": 45953,
+  "threshold": 0.06080303371410206,
+  "cv_auc": 0.9946171107723152,
+  "cv_f1": 0.9366977846213288,
+  "test_auc": 0.9946203371807792,
+  "test_precision": 0.8929360301442245,
+  "test_recall": 0.9870260436614324,
+  "test_f1": 0.9376264865725266,
+  "confusion_matrix": [
+    [
+      22593,
+      2472
+    ],
+    [
+      271,
+      20617
+    ]
+  ],
+  "all_models": [
+    {
+      "name": "Logistic Regression",
+      "auc": 0.9892967285655738,
+      "f1": 0.9306676113637922,
+      "threshold": 0.06621804264418554
+    },
+    {
+      "name": "Random Forest",
+      "auc": 0.9931358398743757,
+      "f1": 0.9350146814467485,
+      "threshold": 0.06706635000220877
+    },
+    {
+      "name": "Gradient Boosting",
+      "auc": 0.9946171107723152,
+      "f1": 0.9366977846213288,
+      "threshold": 0.06080303371410206
+    }
+  ]
+}
